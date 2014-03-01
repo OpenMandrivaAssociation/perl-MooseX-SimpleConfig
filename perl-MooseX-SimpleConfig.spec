@@ -1,9 +1,8 @@
-%define upstream_name    MooseX-SimpleConfig
-%define upstream_version 0.09
+%define upstream_name    MooseX-SimpleConfig%define upstream_version 0.10
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	A Moose role for setting attributes from a simple configfile
 License:	GPL+ or Artistic
@@ -80,3 +79,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Tue Nov 17 2009 cpan2dist 0.04-1mdv
 - initial mdv release, generated with cpan2dist
+
